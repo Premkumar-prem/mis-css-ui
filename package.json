@@ -1,0 +1,27 @@
+{
+  "name": "mis-ui-css",
+  "description": "The front-end framework for developing responsive projects on the web.",
+  "version": "1.0.0",
+  "keywords": [
+    "css",
+    "sass",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "homepage": "https://moveinsync.com/",
+  "author": "Move in Sync UI Team",
+  "contributors": [
+    "Premkumar"
+  ],
+  "scripts": {
+    "start": "sass  scss/index.scss:./dist/mis-ui-css.css"
+  },
+  "style": "dist/css/mis-ui-css.css",
+  "sass": "scss/mis-ui-css.scss",
+  "main": "dist/js/mis-ui-css.js",
+  "module": "dist/js/mis-ui-css.esm.js",
+  "dependencies": {},
+  "devDependencies": {}
+}
